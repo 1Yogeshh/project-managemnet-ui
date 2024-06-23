@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    margin-top: 0;
+}
+
+.navbar-section{
+    margin-top: 0;
+    background-color: rgb(210, 210, 210);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 0;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.logo p{
+    color: blue;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.logo p span{
+    color: black;
+}
+.navbar-buttons{
+    display: flex;
+    gap: 8px;
+    margin-left: 380px;
+}
+.navbar-first{
+    height: 25px;
+    background-color: blue;
+    width: 25px;
+    border-radius: 100%;
+}
+
+.hero-section{
+    width: 100%;
+    display: flex;
+}
+
+.left-section{
+    width: 15%;
+}
+.yuhi{
+    width: 100px;
+    box-shadow: 8px 8px 8px 8px rgba(20, 19, 19, 0.1);
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.left-section-header{
+    background-color: black;padding-top: 5px;
+    width: 100%;
+    height: 30px;
+}
+.left-section-header p{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+.left-section-body{
+
+}
+.left-section-body p{
+    border: 0.5px solid blue;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.mid-section{
+    width: 70%;
+    margin-top: 10px;
+}
+.mid-section-header{
+    display: flex;
+}
+.mid-section-header p{
+    width: 80%;
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight:bolder;
+    margin-left: 20px;
+}
+.mid-section-header button{
+    font-size: 13px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.mid-section-para{
+    background-color: rgb(229, 226, 226);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 0px 10px 0px;
+}
+.mid-section-para h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.mid-section-para p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.mid-section-first{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    gap: 20px;
+}
+
+.content-item {
+    width: 45%;
+    margin-left: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px 8px rgba(20, 19, 19, 0.1);
+}
+.content-item h3{
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-top-left-radius:8px ;
+    border-top-right-radius: 8px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.content-item p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+    margin-left: 10px;
+}
+.content-item p span{
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+}
+.video-container iframe {
+    height: 250px;
+    width: 100%;
+}
+.faltu{
+    height: 100px;
+}
+
+.line{
+    height: 0.5px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 0;
+}
+.threada{
+    
+}
+.threada p{
+    margin-top: 10px;;
+    font-size: 18px;
+    color: black;
+    font-weight: 600    ;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.thread-input-one{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.first-input{
+    background-color: rgb(178, 177, 177);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+}
+.first-input p{
+    margin-bottom: 5px;
+}
+.first-input input{
+    border-radius: 15px;
+    height: 50px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+.thread-button{
+
+}
+.thread-button button{
+    font-size: 13px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.first-input-lower{
+    background-color: rgb(178, 177, 177);
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 8px;
+    margin-top: 30px;
+    height: 130px;
+    padding-top: 5px;
+   
+}
+.first-input-lower p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+}
+.first-input-lower input{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 93px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    width: 99%;
+}
+.faltu-one{
+    height: 100px;
+}
+
+
+
+.right-section{
+    width: 15%;
+    margin-top: 20px;
+}
+
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+.oo{
+    background-color: black;
+    width: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.oo ul{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.oo ul li{
+    list-style: none;
+    margin-top: 4px;
+    color: white;
+    margin-left: 10px;
+}
+
+.vv{
+    background-color: white;
+    box-shadow: 15px 8px 8px 8px rgba(10, 5, 5, 0.1);
+    height: 277px;
+    width: 60px;
+}
